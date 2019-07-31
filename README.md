@@ -20,4 +20,4 @@ a usar Docker de manera profesional.
 
 > docker run -d --name app -p 3000:3000 --end MONGO_URL=mongodb://db:27017/test platziapp
 
-
+> docker network connect platzinet app
